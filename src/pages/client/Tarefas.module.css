@@ -1,0 +1,93 @@
+h2{
+    color:#fff;
+    padding: 20px;
+}
+
+h3{
+    color: #fff;
+    
+    
+}
+
+h5{
+    color: #fff;
+    padding: 30px;
+    font-size: 17px;
+}
+
+.container_botoes{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.task_header{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.task_body{
+    border: 1px solid #fff;
+    padding-inline: 50px;
+    width: 100%;
+    margin-right: 40px;
+    height: 60%;
+    min-height: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    
+}
+
+.task_body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    
+    
+}
+
+.task_body::-webkit-scrollbar-track {
+    background: #008B8B;        /* color of the tracking area */
+    
+}
+
+.task_body::-webkit-scrollbar-thumb {
+    padding-inline: 5px;
+    background-color: #ffffff;    /* color of the scroll thumb */
+    
+
+
+}
+
+.task_body h4{
+    padding: 7px;
+    color: #fff;
+}
+
+.task_children{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.task_button_remove{
+    padding: 7px 12px;
+    border-radius: 90%;
+    border: none;
+    background-color: #DC143C;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.task_name{
+    width: 75%;
+    text-align: center;
+}
+
+.task_del{
+    width: 25%;
+    text-align: center;
+}
